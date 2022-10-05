@@ -7,10 +7,10 @@ graph TD;
 
     User-->Terminal;
     Terminal-->User;
-    Terminal-->Shell OS Kernel;
-    Shell OS Kernel-->Terminal;
-    Shell OS Kernel-->Hardware;
-    Hardware-->Shell OS Kernel;
+    Terminal-->Shell_OS_Kernel;
+    Shell_OS_Kernel-->Terminal;
+    Shell_OS_Kernel-->Hardware;
+    Hardware-->Shell_OS_Kernel;
 
 ```
 
