@@ -1,6 +1,10 @@
 ## Creating and Editing Files
 
-We do this with the help of a variety of command-line or GUI-based text editors
+1. We do this with the help of a variety of command-line or GUI-based text editors.
+2. gedit is a GUI-based editor that provides many features to simplify your work
+3. GNU nano is a command line editor that provides similar functionality in a command line format
+
+---
 
 ## GNU nano Commands
 
