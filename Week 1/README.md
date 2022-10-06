@@ -1,5 +1,17 @@
 # WEEK 1
 
+### Important Directories
+
+| Directory | Contains |
+| --- | --- |
+| `/bin` | Sytem libraries |
+| `/sbin` | Binaries that require root privileges |
+| `/usr` | User programs and data |
+| `/home` | Home directory |
+| `/media` | Removable media device directories |
+
+---
+
 ## Creating and Editing Files
 
 1. We do this with the help of a variety of command-line or GUI-based text editors.
@@ -9,6 +21,16 @@
 ### GNU nano Commands
 
 - `sudo nano <filename>`
+
+> *Example* 
+
+- Working in the folder: `cd /home/project`
+- create a file: `nano myprogram.py`
+- type the following in the file: `print("Learning linux is fun!")`
+- Press `Ctrl+X` to exit
+- Press `y` to save and then press `Enter`
+- You should now be back at the terminal command prompt
+- Run the python file: `python3 myprogram.py`
 
 
 ### VIM Commands
@@ -64,3 +86,19 @@
 4. And apt and yum are popular command line package managers used in deb- and RPM-based distros, respectively.
 
 ---
+
+## WEEK 1 Summary and Highlights
+
+- Linux originated in the 1990s when "Linus Torvalds" developed a free, open source version of Unix Kernel
+- Linux distros differ by their UIs, shell, applications, and how the OS is supported and built.
+- Popular linux distros
+    - RHEL: Red Hat Enterprise Linux
+    - Debian
+    - Ubuntu
+    - Suse(SLES, SLED, OpenSuse)
+    - Fedora
+    - Mint
+    - Arch
+- You can use a variety of command-line or GUI-based text editors such as GNU nano, vim, vi, and gedit. 
+- Deb and RPM packages contain software updates and installation files. 
+- You can use GUI-based and command-line package managers to update and install software on Linux systems.
