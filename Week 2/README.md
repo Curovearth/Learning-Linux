@@ -110,3 +110,22 @@
 
 - `$ zip <name_given>.zip <directory_to_zip>` - Compress files and directories to an archive
     - `$ unzip <name_given>.zip` - Extract and decompress zipped archive
+
+## Networking Commands
+
+- **Machine's host name**
+    - `$ hostname` - print the host name
+    - `$ hostname -i` - ip address of the hostname
+- **Getting network information**
+    - `$ ifconfig` - Interface configuration - Display or configure the system network interfaces
+    - `$ ifconfig eth0` - information about the ethernet adapter
+- **Testing server connections**
+    - `$ ping` - send ICMP(Internet Control Message Protocol) packets to URL and print response
+    - `ping -c 5 www.google.com` - return 5 ping results, aborts and then displays the results
+- **Web scraping with curl**
+    - `$ curl <client_url>` - Transfer data to and from URL
+    - `$ curl www.google.com -o google.txt` - saves the content to google.txt file
+- **Downloading files from URL**
+    - `$ wget` - Web get - Downloading file(s) from a URL
+        - has recursive downloading capabilities.
+
