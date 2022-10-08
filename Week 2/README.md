@@ -71,34 +71,42 @@
 ## Item Navigation
 
 - **Viewing your file all at once**
-    - `cat <file_name>`(catenate) - print entire file contents
-    - `more <file_name>` - Print file contents page by page
+    - `$ cat <file_name>`(catenate) - print entire file contents
+    - `$ more <file_name>` - Print file contents page by page
         - the content which is displayed in the output varies according the dimensions of terminal eg. if you increase the length then the content will increase 
         - clicking on `spacebar` will change the next part of content
         - `q + enter` will help you to return to cmd
-    - `head <file_name>` - Print first 10 lines of file
-        - head -n 3 <file_name>` - first 3 lines
-    - `tail <file_name>` - print last 10 lines
-    - `wc`(word count) - lines, words, characters(counts new line a character)
-        - `wc -l <file_name>` - displays the total lines
-        - `wc -w <file_name>` - displays the total words
-        - `wc -c <file_name>` - displays the total characters
+    - `$ head <file_name>` - Print first 10 lines of file
+        - `$ head -n 3 <file_name>` - first 3 lines
+    - `$ tail <file_name>` - print last 10 lines
+    - `$ wc`(word count) - lines, words, characters(counts new line a character)
+        - `$ wc -l <file_name>` - displays the total lines
+        - `$ wc -w <file_name>` - displays the total words
+        - `$ wc -c <file_name>` - displays the total characters
 
 ## Customizing view of file content
 
 - **Sorting your views line by line**
-    - `sort` - sort lines in a file
-        - `sort -r` - reversed order
+    - `$ sort` - sort lines in a file
+        - `$ sort -r` - reversed order
 - **Excluding repeated lines from views**
-    - `uniq` - filter out repeated lines (only when they are consecutive)
+    - `$ uniq` - filter out repeated lines (only when they are consecutive)
 - **Extracting lines matching a pattern**
-    - `grep`(global regular expression print) - Return lines in file matching pattern
-        - `grep -i` - makes it case insenstive
+    - `$ grep`(global regular expression print) - Return lines in file matching pattern
+        - `$ grep -i` - makes it case insenstive
 - **Extracting slices from lines**
-    - `cut -c 2-9 <file_name>` - displays from character 2 till 9 for all the new lines
-    - `cut -d ' ' -f2 <file_name>` - displays the second field for each line
+    - `$ cut -c 2-9 <file_name>` - displays from character 2 till 9 for all the new lines
+    - `$ cut -d ' ' -f2 <file_name>` - displays the second field for each line
 - **Merging lines from multiple files**
-    - `paste <file1> <file2> <file3>` - merge lines from different files 
-    - `paste -d "," <file1> <file2> <file3>` - delimiter "," will display the result by separating with the help of comma
+    - `$ paste <file1> <file2> <file3>` - merge lines from different files 
+    - `$ paste -d "," <file1> <file2> <file3>` - delimiter "," will display the result by separating with the help of comma
 
+## File Archiving and Compression Commands
 
+- `$ tar -cf <name_given>.tar <name_of_directory>` - Tape Archiver - Archive and Extract files
+    - Compressed .tar file - `tar -czf <name_given>.tar.gz <name_of_directory>`
+    - `$ tar -tf <name_given>.tar` - List archive contents
+    - `$ tar -xf <name_given>.tar <name_of_directory>` - extract files and folders
+
+- `$ zip <name_given>.zip <directory_to_zip>` - Compress files and directories to an archive
+    - `$ unzip <name_given>.zip` - Extract and decompress zipped archive
