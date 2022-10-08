@@ -70,7 +70,7 @@
 
 ## Item Navigation
 
-- Viewing your file all at once
+- **Viewing your file all at once**
     - `cat <file_name>`(catenate) - print entire file contents
     - `more <file_name>` - Print file contents page by page
         - the content which is displayed in the output varies according the dimensions of terminal eg. if you increase the length then the content will increase 
@@ -83,3 +83,22 @@
         - `wc -l <file_name>` - displays the total lines
         - `wc -w <file_name>` - displays the total words
         - `wc -c <file_name>` - displays the total characters
+
+## Customizing view of file content
+
+- **Sorting your views line by line**
+    - `sort` - sort lines in a file
+        - `sort -r` - reversed order
+- **Excluding repeated lines from views**
+    - `uniq` - filter out repeated lines (only when they are consecutive)
+- **Extracting lines matching a pattern**
+    - `grep`(global regular expression print) - Return lines in file matching pattern
+        - `grep -i` - makes it case insenstive
+- **Extracting slices from lines**
+    - `cut -c 2-9 <file_name>` - displays from character 2 till 9 for all the new lines
+    - `cut -d ' ' -f2 <file_name>` - displays the second field for each line
+- **Merging lines from multiple files**
+    - `paste <file1> <file2> <file3>` - merge lines from different files 
+    - `paste -d "," <file1> <file2> <file3>` - delimiter "," will display the result by separating with the help of comma
+
+
