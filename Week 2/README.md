@@ -67,3 +67,19 @@
 7. **Monitoring performance and status**
 
 8. **Running batch jobs**
+
+## Item Navigation
+
+- Viewing your file all at once
+    - `cat <file_name>`(catenate) - print entire file contents
+    - `more <file_name>` - Print file contents page by page
+        - the content which is displayed in the output varies according the dimensions of terminal eg. if you increase the length then the content will increase 
+        - clicking on `spacebar` will change the next part of content
+        - `q + enter` will help you to return to cmd
+    - `head <file_name>` - Print first 10 lines of file
+        - head -n 3 <file_name>` - first 3 lines
+    - `tail <file_name>` - print last 10 lines
+    - `wc`(word count) - lines, words, characters(counts new line a character)
+        - `wc -l <file_name>` - displays the total lines
+        - `wc -w <file_name>` - displays the total words
+        - `wc -c <file_name>` - displays the total characters
