@@ -19,9 +19,11 @@
     - `$ whoami`: username
     - `$ id`: user ID and group ID
     - `$ uname`: os name
+        - `$ uname -a`: prints the system info in the following order: Kernel name, network node hostname, kernel release date, kernel version, machine hardware name, hardware platform, os
     - `$ ps`: running processes
     - `$ top`: resource usage
     - `$ df`: mounted file systems
+        - `$ df -h`: available disk space in a 'human readable' format
     - `$ man`: reference manual
     - `$ date`: today's date
 
@@ -48,6 +50,7 @@
     - `$ head`: print first N lines of file
     - `$ tail`: print last N lines of file
     - `$ echo`: print string or variable value
+        - `$ echo -e`: when working with special characters
 
 5. **Compression and archiving**
     - `$ tar`: archive a set of files
