@@ -21,8 +21,7 @@
 
 ---
 
-> In the current folder you'll be able to see `greet.sh` which can be run in your terminal using the command 
-`$ bash greet.sh` or `$ ./greet.sh`
+> In the current folder you'll be able to see [greet.sh](https://github.com/Curovearth/Learning-Linux/blob/main/Week%203/greet.sh) which can be run in your terminal using the command `$ bash greet.sh` or `$ ./greet.sh`
 
 **Output:**
 
@@ -30,7 +29,7 @@
 - Welcome <your_name>
 - Congratulations! You just created and ran your first shell script using Bash on IBM Skills Network.
 
-> Similarly, you can also play around with the file `greetnew.sh`
+> Similarly, you can also play around with the file [greetnew.sh](https://github.com/Curovearth/Learning-Linux/blob/main/Week%203/greetnew.sh)
 
 ---
 
