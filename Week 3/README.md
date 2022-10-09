@@ -23,6 +23,7 @@
 `$ bash greet.sh`
 
 Output:
-    - Enter your name: <your_name>
-    - Welcome <your_name>
-    - Congratulations! You just created and ran your first shell script using Bash on IBM Skills Network.
+
+- Enter your name: <your_name>
+- Welcome <your_name>
+- Congratulations! You just created and ran your first shell script using Bash on IBM Skills Network.
