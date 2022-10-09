@@ -36,3 +36,38 @@
 Generally, it is not a good idea to grant permission to a script for all user, groups and other alike. It is more appropriate to limit the execute permission to only the owner
 - To change the permissions for `greet.sh`, run the following command
     - `$ chmod u+x greet.sh`
+
+---
+
+## Filters, Pipes and Variables
+
+- **What are Pipes?**
+Put simply, pipes are commands in Linux which allow you to use the output of one command as the input of another.
+
+Pipes "|" use the following format:
+`[command 1] | [command 2] | [command 3] ... | [command n]`
+
+Some commands, such as tr, only accept "standard input" as input (not strings or filenames):
+- `tr`(translate) - replaces characters in input text
+    - Syntax: `tr [OPTIONS] [target characters] [replacement characters]`
+In cases like this, we can use piping to apply the command to strings and file contents.
+
+- With strings, you could, for example, use echo in combination with tr to replace all vowels in a string with underscores, as follows: 
+    - `$ echo "Linux and shell scripting are awesome\!" | tr "aeiou" "_"`
+        - Output: `L_n_x _nd sh_ll scr_pt_ng _r_ _w_s_m_!`
+    - To perform the complement of this use `tr -c`
+
+
+- **Defining Shell Variables**
+    - `$ var_name=value` (*There are no spaces around '='*), below is the example
+        - `$ GREETINGS="Hello"`
+        - `$ echo $GREETINGS`
+            - Output: `Hello`
+    - To clear a variable use `$ unset var_name`
+
+- **Environment Variables**
+    - Extended Scope
+        - `export var_name`
+            - `$ export GREETINGS`
+            - `$ env | grep "GREE"`
+                - Output: `$ GREETINGS=Hello` - Greetings is now an environment variable
