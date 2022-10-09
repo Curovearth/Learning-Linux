@@ -18,3 +18,11 @@
         - Check the current permission settings: `ls -l hello_world.sh`
         - Making it executable for all users: `chmod +x hello_world.sh`
     - Run your bash script: `$ ./hello_world.sh`
+
+> In the current folder you'll be able to see `greet.sh` which can be run in your terminal using the command below
+`$ bash greet.sh`
+
+Output:
+    - Enter your name: <your_name>
+    - Welcome <your_name>
+    - Congratulations! You just created and ran your first shell script using Bash on IBM Skills Network.
