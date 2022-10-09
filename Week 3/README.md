@@ -71,3 +71,29 @@ In cases like this, we can use piping to apply the command to strings and file c
             - `$ export GREETINGS`
             - `$ env | grep "GREE"`
                 - Output: `$ GREETINGS=Hello` - Greetings is now an environment variable
+
+## Useful features of Bash Shell
+
+- **Metacharacters are special characters**
+    - `#` - precedes a comment
+    - `;` - command separator
+    - `*` - filename expansion wildcard
+        - `$ ls /bin/ba*` outputs `/bin/bash`
+    - `?` - single character wildcard in filename expansion
+        - `$ ls /bin/?ash` outputs `/bin/bash /bin/dash`
+
+- **Quoting**
+    - `\` - escape special character interpretation
+        - `$ echo "\$1 each"` - escapes the default interpretation of $ and outputs `$1 each`
+    - `" "` - interpret literally, but evaluate metacharacters
+        - `echo "$1 each"` outputs `each`
+    - `' '` - interpret literally
+        - `echo '$1 each'` outputs `$1 each`
+
+- **I/O Redirection**
+It refers to a set of features used for redirecting
+- `>` - redirect output to file also creates if it doesn't exist
+- `>>` - Append output to file
+- `2>` - Redirect standard error to file
+- `2>>` - Append standard error to file
+- `<` - Redirect file contents to standard output
