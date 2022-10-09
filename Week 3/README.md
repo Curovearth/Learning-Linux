@@ -19,11 +19,21 @@
         - Making it executable for all users: `chmod +x hello_world.sh`
     - Run your bash script: `$ ./hello_world.sh`
 
-> In the current folder you'll be able to see `greet.sh` which can be run in your terminal using the command below
-`$ bash greet.sh`
+---
 
-Output:
+> In the current folder you'll be able to see `greet.sh` which can be run in your terminal using the command 
+`$ bash greet.sh` or `$ ./greet.sh`
+
+**Output:**
 
 - Enter your name: <your_name>
 - Welcome <your_name>
 - Congratulations! You just created and ran your first shell script using Bash on IBM Skills Network.
+
+> Similarly, you can also play around with the file `greetnew.sh`
+
+---
+
+Generally, it is not a good idea to grant permission to a script for all user, groups and other alike. It is more appropriate to limit the execute permission to only the owner
+- To change the permissions for `greet.sh`, run the following command
+    - `$ chmod u+x greet.sh`
