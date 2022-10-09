@@ -92,8 +92,8 @@ In cases like this, we can use piping to apply the command to strings and file c
 
 - **I/O Redirection**
 It refers to a set of features used for redirecting
-- `>` - redirect output to file also creates if it doesn't exist
-- `>>` - Append output to file
-- `2>` - Redirect standard error to file
-- `2>>` - Append standard error to file
-- `<` - Redirect file contents to standard output
+    - `>` - redirect output to file also creates if it doesn't exist
+    - `>>` - Append output to file
+    - `2>` - Redirect standard error to file
+    - `2>>` - Append standard error to file
+    - `<` - Redirect file contents to standard output
