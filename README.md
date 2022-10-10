@@ -14,6 +14,8 @@ graph TD;
 
 ```
 
+---
+
 ### Paths in a linux file System
 
 - Special Paths
@@ -28,3 +30,7 @@ If you are also a user like me who is practicing Ubuntu on WSl, and in search of
 
 1. Open your 📁**File Explorer** Window
 2. At the top, type: `\\wsl$\Ubuntu\home` - This is your home directory where you can view different folders. For me, I saved my created files at the `\\wsl$\Ubuntu\media`. Make sure to check it for you.
+
+---
+
+> A shell script is an executable text file that begins with a ‘shebang’ interpreter directive
