@@ -14,6 +14,8 @@ graph TD;
 
 ```
 
+> if the above graph throws some error, requesting you to refresh the site again.
+
 ---
 
 ### Paths in a linux file System
