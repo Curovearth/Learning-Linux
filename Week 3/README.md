@@ -144,3 +144,11 @@ The command `wc -l` will count the lines.
 - Run the script with a directory as an argument
 
 ---
+
+## Scheduling Jobs using Cron
+
+- `$ crontab -e`
+- Cron is the general name of the tool that runs scheduled jobs consisting of shell commands or shell scripts.
+- Cron interprets 'crontab files' and submits jobs to cron
+- Job Syntax - `min hour date_of_month month day_of_week command`
+    - `30 15 * * 0 date >> sunday.txt` - append the current date to file sunday.txt at 15:30 every sunday
