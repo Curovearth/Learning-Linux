@@ -118,3 +118,29 @@ It can also be used to nest multiple commands, so that the innermost command's o
 - **List five largest files**
     - `ls -lS /bin | head -6`
         - The -S option option of ls command sorts the files from largest to smallest
+
+---
+
+> For the file present with the name [wish.sh](wish.sh) execute the following commands
+
+- Making the script executable for everyone - `$ chmod +x wish.sh`
+- Run the script with two arguments - `$ ./wish.sh Ramesh Sannareddy`
+- You should see the **below output**
+    - Hi Ramesh Sannareddy
+    - Ramesh is your firstname
+    - Sannareddy is your lastname
+
+---
+
+> Let us create a bash script named [dirinfo.sh](dirinfo.sh) that takes the directory name as an argument and prints the total number of the the directories and the number of files in it.
+
+We will make use of the find command with -type option which will list only files or directories depending upon the usage of d switch or f switch respectively.
+
+`-d` - operator to check if the given directory exists or not
+
+The command `wc -l` will count the lines.
+
+- Make the script executable
+- Run the script with a directory as an argument
+
+---
