@@ -152,3 +152,16 @@ The command `wc -l` will count the lines.
 - Cron interprets 'crontab files' and submits jobs to cron
 - Job Syntax - `min hour date_of_month month day_of_week command`
     - `30 15 * * 0 date >> sunday.txt` - append the current date to file sunday.txt at 15:30 every sunday
+
+---
+
+> **Scheduling a shell script**. Run the file [diskusage.sh](diskusage.sh) that prints the current time and the current disk usage statistics.
+
+- Make the script executable
+- `$ crontab -e`
+- `$ 0 0 * * * /home/project/disksusage.sh >>/home/project/diskusage.log`
+- Check if the job is added to the crontab by running the following command - `$ crontab -l`
+
+The `-r` option causes the current crontab to be removed.
+
+Caution: This removes all your cron jobs. Be extra cautious when you use this command on a production server. `$ crontab -r`
