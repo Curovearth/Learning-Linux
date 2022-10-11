@@ -1,0 +1,117 @@
+<mxfile host="65bd71144e">
+    <diagram id="OFfZuUtxJLL0KvFDoy-o" name="Page-1">
+        <mxGraphModel dx="926" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="320" width="580" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="USER" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;labelBackgroundColor=none;fillColor=#FF6666;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="APPLICATION" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;fillColor=#FFB366;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="SHELLS" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fillColor=#FFB366;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="USER APPS" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fillColor=#FFB366;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="TOOLS" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fillColor=#FFB366;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="SYSTEM DOMAINS" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fillColor=#FFB366;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="450" as="sourcePoint"/>
+                        <mxPoint x="520" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="450" as="sourcePoint"/>
+                        <mxPoint x="330" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="450" as="sourcePoint"/>
+                        <mxPoint x="330" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="450" as="sourcePoint"/>
+                        <mxPoint x="330" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="450" as="sourcePoint"/>
+                        <mxPoint x="330" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" source="17" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="OPERATING SYSTEM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;fillColor=#B3FF66;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="KERNEL" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="HARDWARE" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontColor=#000000;fillColor=#B266FF;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;html=1;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="26" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Using the Linux System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="410" y="215" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="28" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Interaction wth system happens via applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="650" y="430" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="30" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Applications communicate with OS to perform tasks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="430" y="635" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="32" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="All Linux based OS are built on top of Linux kernel -&amp;gt; manages memory, proecessing and security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="425" y="775" width="345" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="34" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Kernel interacts with hardware such as processors, memory modules, i/p devices and storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="425" y="915" width="365" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
