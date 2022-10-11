@@ -129,3 +129,6 @@
     - `$ wget` - Web get - Downloading file(s) from a URL
         - has recursive downloading capabilities.
 
+---
+
+> [Have Fun](https://media4.giphy.com/media/uMUcWg5fIQhWM/giphy.gif?cid=ecf05e47gcw3in91o9id59l79ynedivys78vhbmz67tqndjz&rid=giphy.gif&ct=g) ...

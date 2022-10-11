@@ -165,3 +165,7 @@ The command `wc -l` will count the lines.
 The `-r` option causes the current crontab to be removed.
 
 Caution: This removes all your cron jobs. Be extra cautious when you use this command on a production server. `$ crontab -r`
+
+---
+
+> [Have Fun](https://media4.giphy.com/media/aFTt8wvDtqKCQ/giphy.gif?cid=ecf05e47yw19yj7cdzcfuiw5qpoipmoklbo5vpmiitffpwpt&rid=giphy.gif&ct=g) ...

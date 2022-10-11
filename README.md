@@ -13,6 +13,10 @@ I'll be further updating my learnings on this site and the repo ultimately to he
 
 ---
 
+> **Below, I have mentioned some important points from all the parts which could be very useful.**
+
+---
+
 **What is a Shell 🐚?**
 
 - A powerful UI for Linux and Unix like OS
@@ -90,3 +94,7 @@ If you are also a user like me who is practicing Ubuntu on WSl, and in search of
 ---
 
 > A shell script is an executable text file that begins with a ‘shebang’ interpreter directive
+
+---
+
+- Cheat Sheet PDF: [Linux Commands](/Cheat%20sheet.pdf)

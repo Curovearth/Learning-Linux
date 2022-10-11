@@ -105,3 +105,5 @@
 - You can use GUI-based and command-line package managers to update and install software on Linux systems.
 
 ---
+
+> [Have Fun](https://youtu.be/dQw4w9WgXcQ?t=85) ...
