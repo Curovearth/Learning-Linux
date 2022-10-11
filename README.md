@@ -6,10 +6,10 @@ I'll be further updating my learnings on this site and the repo ultimately to he
 
 ## Navigation 🧭
 
-1. [Part 1: Introduction to Linux](/Part%201/README.md)
-2. [Part 2: Introduction to Linux Commands](/Part%202/README.md)
-3. [Part 3: Introduction to Shell Scripting](/Part%203/README.md)
-4. [Part 4: Introduction to Shell Conditionals](/Part%204/README.md)
+1. [Part 1: Introduction to Linux](/Part_1.md)
+2. [Part 2: Introduction to Linux Commands](/Part_2.md)
+3. [Part 3: Introduction to Shell Scripting](/Part_3.md)
+4. [Part 4: Introduction to Shell Conditionals](/Part_4.md)
 
 ---
 
