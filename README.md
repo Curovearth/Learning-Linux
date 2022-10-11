@@ -1,5 +1,9 @@
 # LINUX COMMANDS AND SHELL SCRIPTING
 
+The following work has been done as part of a course [Hands-on Introduction to Linux Commands and Shell Scripting - IBM Skills Network](https://in.coursera.org/learn/hands-on-introduction-to-linux-commands-and-shell-scripting)
+
+I'll be further updating my learnings on this site and the repo ultimately to help others who also wish to start with the fascinating field of shell scripting which is soooo much fun to do!
+
 ## Navigation 🧭
 
 1. [Part 1: Introduction to Linux](/Part%201/README.md)
