@@ -1,4 +1,4 @@
-# LINUX COMMANDS AND SHELL SCRIPTING
+# Linux Commands and Shell Scripting
 
 The following work has been done as part of a course [Hands-on Introduction to Linux Commands and Shell Scripting - IBM Skills Network](https://in.coursera.org/learn/hands-on-introduction-to-linux-commands-and-shell-scripting)
 
