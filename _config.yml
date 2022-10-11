@@ -12,9 +12,9 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  - Part 1/README.md
-  - Part 2/README.md
-  - Part 3/README.md
-  - Part 4/README.md
+  - Part_1.md
+  - Part_2.md
+  - Part_3.md
+  - Part_4.md
   
 theme: jekyll-theme-dinky
